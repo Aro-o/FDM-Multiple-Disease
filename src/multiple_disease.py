@@ -5,12 +5,17 @@ import sklearn
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/user/Desktop/FDM/diabetes_model.sav','rb'))
+# diabetes_model = pickle.load(open('C:/Users/user/Desktop/FDM/diabetes_model.sav','rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/user/Desktop/FDM/heart_disease_model.sav','rb'))
+# heart_disease_model = pickle.load(open('C:/Users/user/Desktop/FDM/heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/user/Desktop/FDM/parkinsons_model.sav','rb'))
+# parkinsons_model = pickle.load(open('C:/Users/user/Desktop/FDM/parkinsons_model.sav','rb'))
 
+diabetes_model = pickle.load(open('./src/models/diabetes_model.sav','rb'))
+
+heart_disease_model = pickle.load(open('./src/models/heart_disease_model.sav','rb'))
+
+parkinsons_model = pickle.load(open('./src/models/parkinsons_model.sav','rb'))
 
 # sidebar for navigation
 with st.sidebar:
