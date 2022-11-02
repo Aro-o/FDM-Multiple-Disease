@@ -97,7 +97,7 @@ if (selected == 'Heart Disease Prediction'):
         sex = st.text_input('Sex(female=0, male=1)')
         
     with col3:
-        cp = st.text_input('Chest Pain types')
+        cp = st.text_input('Chest Pain types(ATA=0, NAP=1, ASY=2, TA=3)')
         
     with col1:
         trestbps = st.text_input('Resting Blood Pressure')
@@ -109,19 +109,19 @@ if (selected == 'Heart Disease Prediction'):
         fbs = st.text_input('Fasting Blood Sugar')
         
     with col1:
-        restecg = st.text_input('Resting Electrocardiographic results')
+        restecg = st.text_input('Resting Electrocardiographic results(Normal=0, ST=1, LVH=2)')
         
     with col2:
         thalach = st.text_input('Maximum Heart Rate achieved')
         
     with col3:
-        exang = st.text_input('Exercise Induced Angina')
+        exang = st.text_input('Exercise Induced Angina(N=0, Y=1)')
         
     with col1:
         oldpeak = st.text_input('ST depression induced by exercise')
         
     with col2:
-        slope = st.text_input('Slope of the peak exercise ST segment')
+        slope = st.text_input('Slope of the peak exercise ST segment(Up=0, Flat=1, Down=2)')
 
 
     # code for Prediction
